@@ -1,2 +1,2 @@
 # explore-docker
-ASP.NET Core applications deployed as Linux containers
+ASP.NET Core applications which can be deployed as Linux containers
