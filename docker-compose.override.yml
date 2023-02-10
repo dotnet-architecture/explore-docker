@@ -6,7 +6,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=https://+:443;http://+:80
     ports:
-      - "51080:80"
+      - "5107:80"
       - "51443:443"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
@@ -17,7 +17,7 @@ services:
       - ASPNETCORE_URLS=https://+:443;http://+:80
       - WebApiBaseAddress=http://webapi
     ports:
-      - "50080:80"
+      - "5104:80"
       - "50443:443"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
