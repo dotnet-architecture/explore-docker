@@ -1,5 +1,5 @@
 using Microsoft.Extensions.Configuration;
-using WebApplication1;
+using WebApp;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = GetConfiguration();

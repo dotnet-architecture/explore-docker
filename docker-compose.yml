@@ -7,9 +7,9 @@ services:
       context: .
       dockerfile: WebApi/Dockerfile
 
-  webapplication1:
-    image: ${DOCKER_REGISTRY-}webapplication1
+  webapp:
+    image: ${DOCKER_REGISTRY-}webapp
     build:
       context: .
-      dockerfile: WebApplication1/Dockerfile
+      dockerfile: WebApp/Dockerfile
 
