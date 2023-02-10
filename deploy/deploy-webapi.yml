@@ -25,6 +25,8 @@ spec:
           env:
             - name: ASPNETCORE_URLS
               value: http://+:80
+            - name: ASPNETCORE_ENVIRONMENT
+              value: Development
 ---
 apiVersion: v1
 kind: Service

@@ -27,6 +27,8 @@ spec:
               value: http://+:80
             - name: WebApiBaseAddress
               value: http://webapi
+            - name: ASPNETCORE_ENVIRONMENT
+              value: Development
 ---
 apiVersion: v1
 kind: Service
