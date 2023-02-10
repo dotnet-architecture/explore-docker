@@ -22,13 +22,13 @@ Weather Forecast
         </tr>
     </thead>
     <tbody>
-        @foreach (var pizza in @Model.WeatherForecasts)
+        @foreach (var weather in @Model.WeatherForecasts)
         {
             <tr>
-                <td>@pizza.Date</td>
-                <td>@pizza.TemperatureC</td>
-                <td>$@pizza.TemperatureF</td>
-                <td>@pizza.Summary</td>
+                <td>@weather.Date</td>
+                <td>@weather.TemperatureC</td>
+                <td>$@weather.TemperatureF</td>
+                <td>@weather.Summary</td>
             </tr>
         }
     </tbody>

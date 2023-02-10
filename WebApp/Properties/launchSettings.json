@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "WebApplication1": {
+    "WebApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace WebApplication1
+namespace WebApp
 {
     public class WeatherClient
     {
